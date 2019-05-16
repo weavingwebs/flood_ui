@@ -1,0 +1,7 @@
+flood_ui.view:
+  title: 'Flood UI'
+  description: 'List all entries in the flood table.'
+  parent: system.admin_reports
+  route_name: flood_ui.view
+  menu_name: devel
+  weight: 10

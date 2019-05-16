@@ -1,0 +1,5 @@
+services:
+  flood_ui.logger:
+    parent: logger.channel_base
+    arguments: ['flood_ui']
+    class: Drupal\Core\Logger\LoggerChannelInterface

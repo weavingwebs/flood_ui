@@ -1,0 +1,5 @@
+name: 'Flood UI'
+type: module
+description: 'Provide a UI for the flood table'
+core: 8.x
+package: '__ww__'

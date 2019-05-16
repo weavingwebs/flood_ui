@@ -1,0 +1,14 @@
+flood_ui.view:
+  path: '/admin/flood_ui'
+  defaults:
+    _controller: '\Drupal\flood_ui\Controller\FloodUiController::viewFlood'
+    _title: 'Flood UI'
+  requirements:
+    _permission: 'view flood ui'
+
+flood_ui.unblock:
+  path: '/admin/flood_ui/unblock'
+  defaults:
+    _controller: '\Drupal\flood_ui\Controller\FloodUiController::unblock'
+  requirements:
+    _permission: 'view flood ui'

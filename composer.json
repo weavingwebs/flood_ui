@@ -1,0 +1,14 @@
+{
+    "name": "ww/flood_ui",
+    "type": "drupal-module",
+    "description": "Provide a UI for the flood table",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0+",
+    "homepage": "https://git.weavingwebs.co.uk/modules/flood_ui",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://git.weavingwebs.co.uk/modules/flood_ui/issues",
+        "source": "https://git.weavingwebs.co.uk/modules/flood_ui"
+    },
+    "require": { }
+}

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains flood_ui.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function flood_ui_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the flood_ui module.
+    case 'help.page.flood_ui':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provide a UI for the flood table') . '</p>';
+      return $output;
+
+    default:
+  }
+}
