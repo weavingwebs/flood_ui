@@ -2,4 +2,5 @@ name: 'Flood UI'
 type: module
 description: 'Provide a UI for the flood table'
 core: 8.x
+core_version_requirement: ^8 || ^9
 package: '__ww__'
